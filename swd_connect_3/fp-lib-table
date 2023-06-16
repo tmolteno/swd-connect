@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "swd-connect")(type "KiCad")(uri "${KIPRJMOD}/../swd-connect.pretty")(options "")(descr ""))
+)
