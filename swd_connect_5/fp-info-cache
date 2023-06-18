@@ -1,4 +1,4 @@
-21578287307534046
+21578287435851432
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89618,7 +89618,7 @@ swd-connect-3-mcu
 
 
 0
-6
+3
 3
 ZL4AA
 swd-connect-3-programmer
@@ -89632,7 +89632,7 @@ swd-connect-5-mcu
 
 
 0
-8
+5
 5
 ZL4AA
 swd-connect-5-programmer
