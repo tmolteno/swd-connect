@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "zl4aa")(type "KiCad")(uri "/home/tim/github/zl4aa/sdr/zl4aa.kicad_sym")(options "")(descr ""))
+  (lib (name "swd-connect")(type "KiCad")(uri "/home/tim/github/swd-connect/swd-connect.kicad_sym")(options "")(descr ""))
 )

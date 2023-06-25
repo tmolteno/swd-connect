@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "ZL4AA")(type "KiCad")(uri "/home/tim/github/zl4aa/sdr/ZL4AA.pretty")(options "")(descr ""))
+  (lib (name "swd-connect")(type "KiCad")(uri "/home/tim/github/swd-connect/swd-connect.pretty")(options "")(descr ""))
 )

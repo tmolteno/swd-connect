@@ -1,4 +1,4 @@
-21578287435851432
+21568218221046189
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89557,84 +89557,42 @@ varistor
 0
 2
 2
-ZL4AA
-BGA-8_2x4_6.0x12.0mm
-
-
-0
-8
-8
-ZL4AA
-DB126V-5.0-2P-GN-P
-
-
-0
-2
-2
-ZL4AA
-DFN-6_L1.1-W0.7-P0.40-BL
-
-
-0
-6
-6
-ZL4AA
-IND-SMD_L4.5-W4.0_SDR0403
-
-
-0
-2
-2
-ZL4AA
-SOT-23-5_L3.0-W1.6-P0.95-LS2.8-BL
-
-
-0
-5
-5
-ZL4AA
-TS-1187A-B-A-B
-
-
-0
-4
-2
-ZL4AA
-USB-C-SMD_HC-TYPE-C-6P-01A
-
-
-0
-10
-10
-ZL4AA
-USB_C_Receptacle_ SHOU_HAN_TYPE-C 16PIN 2MD(073)
-https://datasheet.lcsc.com/lcsc/2111231930_SHOU-HAN-TYPE-C-16PIN-2MD-073_C2765186.pdf
-USB C Type-C Receptacle USB2.0
-0
-20
-17
-ZL4AA
+swd-connect
 swd-connect-3-mcu
 
 
 0
 3
 3
-ZL4AA
+swd-connect
+swd-connect-3-mcu-tight
+
+
+0
+3
+3
+swd-connect
 swd-connect-3-programmer
 
 
 0
 3
 3
-ZL4AA
+swd-connect
+swd-connect-3-programmer-tight
+
+
+0
+3
+3
+swd-connect
 swd-connect-5-mcu
 
 
 0
 5
 5
-ZL4AA
+swd-connect
 swd-connect-5-programmer
 
 
