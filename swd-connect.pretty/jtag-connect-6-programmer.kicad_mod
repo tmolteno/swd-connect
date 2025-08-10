@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "The component required to build a swd-connect JTAG programmer")
 	(property "Reference" "REF**"
 		(at -1.41 -5.5 0)
 		(layer "F.SilkS")
@@ -25,7 +26,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C5157340.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -37,7 +38,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "JTAG board connector"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -49,20 +50,43 @@
 			)
 		)
 	)
-	(attr smd)
-	(fp_line
-		(start -4.53 4.5)
-		(end -4.53 1.5)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
+	(property "Signal Pins" "C7471671 (Xinyanze YZP0732-20057-01   2mm operational depth)"
+		(at -0.5 9 0)
 		(layer "F.SilkS")
-		(uuid "e25defa3-5540-4798-9385-1fe805bf8076")
+		(uuid "ce5aea34-120a-4470-9fc6-1c277023b437")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
 	)
+	(property "Guide Pins" "https://www.lcsc.com/datasheet/C5157349.pdf"
+		(at 0 10.5 0)
+		(layer "F.SilkS")
+		(uuid "b5231433-e382-4c77-ac25-5ec1aef2cb4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Guid Pins LCSC" "C5157349"
+		(at -0.5 12.5 0)
+		(layer "F.SilkS")
+		(uuid "d3c0deae-c556-4301-a769-4cd4ec2690cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
 	(fp_line
-		(start -4.5 -3.44)
-		(end -4.5 -1.56)
+		(start -3.5 -2)
+		(end -3.5 -0.5)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -71,28 +95,18 @@
 		(uuid "1767e930-2804-45fa-bff3-ce7657c80b39")
 	)
 	(fp_line
-		(start -3.5 -4.5)
-		(end -4.5 -3.44)
+		(start -3.5 3.5)
+		(end -3.5 0.5)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "14688c64-af85-418e-bd3c-106dc29cb8b0")
+		(uuid "e25defa3-5540-4798-9385-1fe805bf8076")
 	)
 	(fp_line
-		(start -3.06 -4.5)
-		(end -3.44 -4.5)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "17370110-734e-4cc4-a809-7484da1651aa")
-	)
-	(fp_line
-		(start -3.03 4.5)
-		(end -4.53 4.5)
+		(start -2.25 3.5)
+		(end -3.5 3.5)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -101,8 +115,28 @@
 		(uuid "f496fdaa-411c-4164-aeda-38d1114e8263")
 	)
 	(fp_line
-		(start 0.06 -4.5)
-		(end 4.44 -4.5)
+		(start -2 -3.44)
+		(end -3.5 -2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14688c64-af85-418e-bd3c-106dc29cb8b0")
+	)
+	(fp_line
+		(start -1 -3.44)
+		(end -2 -3.44)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17370110-734e-4cc4-a809-7484da1651aa")
+	)
+	(fp_line
+		(start 0 -3.5)
+		(end 3.5 -3.5)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -111,8 +145,8 @@
 		(uuid "61d085df-d999-4ee7-9ed3-2d0352c4749b")
 	)
 	(fp_line
-		(start 3 4.5)
-		(end 4.5 4.5)
+		(start 2.25 3.5)
+		(end 3.5 3.5)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -121,8 +155,8 @@
 		(uuid "be2c3b85-e59c-4949-b664-e1a2819dd39b")
 	)
 	(fp_line
-		(start 4.5 -4.5)
-		(end 4.5 -1.5)
+		(start 3.5 -3.5)
+		(end 3.5 -0.5)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -131,8 +165,8 @@
 		(uuid "8a3b48f6-469f-4635-a108-a0f381860956")
 	)
 	(fp_line
-		(start 4.5 4.5)
-		(end 4.5 1.5)
+		(start 3.5 3.5)
+		(end 3.5 0.5)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -141,8 +175,8 @@
 		(uuid "1d322ca0-f13c-4e6c-9591-034c05c64e78")
 	)
 	(fp_circle
-		(center -4.25 -4.25)
-		(end -4.25 -4.15)
+		(center -3 -2.91)
+		(end -3 -2.81)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -152,8 +186,8 @@
 		(uuid "c1dd9cae-facf-4ad4-afc2-71135cb79d5e")
 	)
 	(fp_rect
-		(start -4.5 -4.5)
-		(end 4.5 4.5)
+		(start -3.5 -3.5)
+		(end 3.5 3.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -163,8 +197,8 @@
 		(uuid "71c72be8-2e52-4c48-a654-97082b515b55")
 	)
 	(fp_rect
-		(start -4.5 -4.5)
-		(end 4.5 4.5)
+		(start -3.5 -3.5)
+		(end 3.5 3.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -172,16 +206,6 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "df1fd272-9e3a-47ae-a8e3-4e812efa4e92")
-	)
-	(fp_line
-		(start 1.59 -4.5)
-		(end -3.41 -4.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "c77abe9b-5b7b-4583-a9ef-543f027d4b47")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -1.41 1.5 0)
@@ -195,70 +219,70 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -3 3)
-		(size 2.25 2.25)
-		(drill 1.55)
+		(at -2 2)
+		(size 2 2)
+		(drill 0.65)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "3c7b3f43-eec4-4f95-86f4-510e7f7fdf88")
 	)
 	(pad "" np_thru_hole circle
-		(at 3 -3)
-		(size 2.25 2.25)
-		(drill 1.55)
+		(at 2 -2)
+		(size 2 2)
+		(drill 0.65)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "82546145-4756-487c-bffb-964203a6209c")
 	)
 	(pad "" np_thru_hole circle
-		(at 3 3)
-		(size 2.25 2.25)
-		(drill 1.55)
+		(at 2 2)
+		(size 2 2)
+		(drill 0.65)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "bb8eab3a-db03-40c8-a145-ac5aef10b6e5")
 	)
 	(pad "1" thru_hole circle
-		(at -3 -3)
-		(size 2.25 2.25)
-		(drill 1.55)
+		(at -2 -2)
+		(size 1.1 1.1)
+		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b26017b0-f3f5-488c-a8be-f5968663b3fc")
 	)
 	(pad "2" thru_hole circle
-		(at 0 -3)
-		(size 2.25 2.25)
-		(drill 1.55)
+		(at 0 -2)
+		(size 1.1 1.1)
+		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "972a3848-7434-4c04-9751-9897b8f48313")
 	)
 	(pad "3" thru_hole circle
-		(at -3 0)
-		(size 2.25 2.25)
-		(drill 1.55)
+		(at -2 0)
+		(size 1.1 1.1)
+		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1eb3c792-4dcc-429f-909c-7c43f358a0cc")
 	)
 	(pad "4" thru_hole circle
 		(at 0 0)
-		(size 2.25 2.25)
-		(drill 1.55)
+		(size 1.1 1.1)
+		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "6fbb9122-c1ca-4dc0-bb69-7c7c1d65724f")
 	)
 	(pad "5" thru_hole circle
-		(at 3 0)
-		(size 2.25 2.25)
-		(drill 1.55)
+		(at 2 0)
+		(size 1.1 1.1)
+		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "275db61b-c961-42cd-8200-b8b100c96b02")
 	)
 	(pad "6" thru_hole circle
-		(at 0 3)
-		(size 2.25 2.25)
-		(drill 1.55)
+		(at 0 2)
+		(size 1.1 1.1)
+		(drill 0.65)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "569af32c-e4b9-4c0d-9ab0-91cc41b3c8d4")
